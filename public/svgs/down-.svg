@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 360 360" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+  <defs>
+    <filter id="f1" x="0" y="0" width="200%" height="200%">
+			<feOffset result="offOut" in="SourceGraphic" dx="20" dy="20" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+  </defs>
+	<path d="M312.18 445.52C307.18 450.52 300.4 453.33 293.33 453.33C286.25 453.33 279.47 450.52 274.47 445.52C247.8 418.86 34.48 205.52 7.81 178.86C-2.6 168.44 -2.6 151.56 7.81 141.14C18.22 130.73 35.11 130.73 45.52 141.14C62.04 157.66 144.64 240.27 293.33 388.95C442.02 240.27 524.62 157.66 541.14 141.14C546.35 135.94 553.18 133.33 560 133.33C566.82 133.33 573.65 135.94 578.86 141.15C589.27 151.56 589.27 168.44 578.86 178.86C525.52 232.19 338.85 418.86 312.18 445.52Z" id="b31Zb2f9x" transform="scale(0.5)"></path>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>

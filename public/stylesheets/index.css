@@ -1,0 +1,188 @@
+body {
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#navigation {
+  position: fixed;
+  height: 10vh;
+  width: 5vw;
+  bottom: 5vh;
+  right: 0;
+}
+
+/* #down-arrow img {
+  transform: rotate(180deg);
+} */
+
+#navigation button {
+  background: none;
+  border: none;
+  width: 80%;
+  z-index: 1;
+}
+
+#navigation button:focus {
+  outline: none;
+}
+
+#navigation button:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/* #navigation img {
+  shadow
+} */
+#start {
+  /* display: grid;
+  place-items: center; */
+  box-sizing: border-box;
+  background-color: #FBFBF3;
+  margin: 0 auto;
+  padding-top: 20vh;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  /* display: grid; */
+  /* place-items: center; */
+}
+
+#image-and-name figure {
+  font-family: 'Playfair Display', serif;
+  box-sizing: border-box;
+  align-content: center;
+  vertical-align: center;
+}
+
+#image-and-name figcaption, #highlighted-project h2 {
+  font-size: 3em;
+}
+
+#image-and-name img {
+  border-radius: 50%;
+  max-width: 30vw;
+  max-height: 30vh;
+  margin: 0 auto;
+}
+
+#about {
+  padding-top: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 85%;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#highlighted-project {
+  height: 100vh;
+  width: 100vw;
+  background-color: #E5E6E4;
+  text-align: center;
+}
+
+#highlighted-project h2, #other-projects h2 {
+  font-size: 3vh;
+  font-family: 'Playfair Display', serif;
+  padding-top: 10vh;
+}
+
+#highlighted-project figcaption:hover {
+  color: #00b4ff;
+}
+
+#highlighted-project img:hover {
+  border-radius: 50px;
+background: #e5e6e4;
+box-shadow:  20px 20px 60px #c3c4c2,
+             -20px -20px 60px #ffffff;
+}
+
+#image-carousel {
+  padding-top: 5vh;
+  margin: 0 auto;
+  height: 30vh;
+  width: 80%;
+}
+
+#image-carousel figure {
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+}
+
+#image-carousel img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#image-carousel figcaption {
+  padding-top: 3rem;
+}
+
+#other-projects {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #CFD2CD;
+}
+
+#other-projects figure {
+  display: inline-block;
+  margin: 3rem auto;
+  width: 25vw;
+  height: 35vh;
+  vertical-align: top;
+}
+
+#other-projects figure img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#other-projects h4 {
+  font-size: 1.6rem;
+}
+
+#highlighted-project a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.bold-no-decoration {
+  color: inherit;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+aside>#links {
+  max-width: 5%;
+  position: fixed;
+  top: 3.5rem;
+  left: 2rem;
+}
+
+#links li {
+  margin-top: 1rem;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  height: 4rem;
+  width: 4rem;
+}
+
+#links li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#links img {
+  height: 4rem;
+  width: 4rem;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
